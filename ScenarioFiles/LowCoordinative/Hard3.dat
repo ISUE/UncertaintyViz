@@ -1,0 +1,14 @@
+TimeStep: 0
+CameraPosition: -81.25122 19.39177
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 8
+Asset -81.271 19.37468 2.5 4 Party_Location
+Asset -81.27999 19.39092 2.5 0 Yacht_1
+Asset -81.22308 19.36294 2.5 0 Yacht_2
+Asset -81.24709 19.38515 2.5 0 Yacht_3
+Case -81.29896 19.42184 FanLowComponentLowUncertainty 0.5760783 -0.4100413 0.4100413 0.5760783 12 20 2.5 1 Alcohol_A_1
+Case -81.20564 19.39717 FanLowComponentLowUncertainty 0.6976072 0.115517 -0.115517 0.6976072 12 20 2.5 1 Alcohol_A_2
+Case -81.20823 19.38254 FanLowComponentLowUncertainty 0.5193071 0.4799168 -0.4799168 0.5193071 12 20 2.5 1 Alcohol_A_3
+Case -81.25691 19.42271 FanLowComponentHighUncertainty 0.7070931 -0.004408919 0.004408919 0.7070931 12 20 2.5 1 Alcohol_A_4

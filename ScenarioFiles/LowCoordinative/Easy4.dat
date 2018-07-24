@@ -1,0 +1,12 @@
+TimeStep: 0
+CameraPosition: -81.244 19.39642
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 6
+Asset -81.27126 19.37471 2.5 4 Party_Location
+Asset -81.25816 19.38949 2.5 2 RIB_1
+Asset -81.23679 19.37083 2.5 2 RIB_2
+Case -81.28588 19.42467 FanLowComponentMidUncertainty -0.5528712 0.4408327 -0.4408327 -0.5528712 12 20 2.5 2 Miscellaneous_A_1
+Case -81.2248 19.41811 FanLowComponentLowUncertainty -0.6924919 0.143021 -0.143021 -0.6924919 12 20 2.5 2 Miscellaneous_A_2
+Case -81.18993 19.40554 FanLowComponentHighUncertainty 0.6807385 0.1912985 -0.1912985 0.6807385 12 20 2.5 2 Miscellaneous_A_3

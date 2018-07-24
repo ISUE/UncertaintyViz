@@ -1,0 +1,11 @@
+TimeStep: 0
+CameraPosition: -81.21342 19.40242
+CameraOrientation: 45.5 -0.6
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 5
+Asset -81.23303 19.3588 2.5 3 Jetski
+Asset -81.2527 19.36962 2.5 1 Cruiser
+Case -81.1994 19.39123 FanLowComponentLowUncertainty 0.7030551 0.07558814 -0.07558814 0.7030551 11 20 2.5 0 Food_B
+Case -81.23669 19.42711 FanLowComponentMidUncertainty -0.6797493 0.1947843 -0.1947843 -0.6797493 11 20 2.5 2 Miscellaneous_A
+Case -81.18028 19.38142 FanLowComponentHighUncertainty 0.591758 0.387069 -0.387069 0.591758 11 20 2.5 2 Miscellaneous_B

@@ -1,0 +1,12 @@
+TimeStep: 0
+CameraPosition: -81.24703 19.41183
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 6
+Asset -81.27119 19.37344 2.5 4 Party_Location
+Asset -81.24588 19.37209 2.5 3 Jetski_1
+Asset -81.26513 19.38625 2.5 3 Jetski_2
+Case -81.29086 19.41296 FanLowComponentLowUncertainty 0.5510766 -0.443074 0.443074 0.5510766 12 20 2.5 0 Food_B_1
+Case -81.24879 19.42285 FanLowComponentLowUncertainty 0.6657796 -0.2381965 0.2381965 0.6657796 12 20 2.5 0 Food_B_2
+Case -81.22087 19.41478 FanLowComponentHighUncertainty 0.6600416 0.2536635 -0.2536635 0.6600416 12 20 2.5 0 Food_B_3

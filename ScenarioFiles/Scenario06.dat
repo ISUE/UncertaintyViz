@@ -1,0 +1,12 @@
+TimeStep: 0
+CameraPosition: -81.2382 19.42312
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 6
+Asset -81.25083 19.37785 2.5 0 Yacht
+Asset -81.2355 19.36762 2.5 1 Cruiser
+Case -81.21477 19.40968 FanLowComponentLowUncertainty 0.6782379 0.1999833 -0.1999833 0.6782379 11 20 2.5 0 Food_A
+Case -81.24934 19.43634 FanLowComponentMidUncertainty -0.4969133 0.5030678 -0.5030678 -0.4969133 11 20 2.5 2 Miscellaneous_A
+Asset -81.39784 19.44628 2.5 5 Rough_Weather_Region
+Asset -81.26976 19.36897 2.5 4 Party_Location

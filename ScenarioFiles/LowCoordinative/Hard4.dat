@@ -1,0 +1,14 @@
+TimeStep: 0
+CameraPosition: -81.2533 19.38179
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 8
+Asset -81.27248 19.37178 2.5 4 Party_Location
+Asset -81.2932 19.38126 2.5 0 Yacht_1
+Asset -81.26351 19.39091 2.5 0 Yacht_2
+Asset -81.23058 19.3672 2.5 0 Yacht_3
+Case -81.20707 19.38862 FanLowComponentLowUncertainty 0.5966478 0.3794884 -0.3794884 0.5966478 12 20 2.5 2 Miscellaneous_A_1
+Case -81.23913 19.41993 FanLowComponentLowUncertainty 0.6635187 0.2444239 -0.2444239 0.6635187 12 20 2.5 2 Miscellaneous_A_2
+Case -81.27921 19.44022 FanLowComponentMidUncertainty 0.1899254 -0.6811229 0.6811229 0.1899254 12 20 2.5 2 Miscellaneous_A_3
+Case -81.29799 19.43408 FanLowComponentMidUncertainty 0.3366838 -0.6218071 0.6218071 0.3366838 12 20 2.5 2 Miscellaneous_A_4

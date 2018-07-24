@@ -1,0 +1,11 @@
+TimeStep: 0
+CameraPosition: -81.22191 19.39058
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 5
+Asset -81.271 19.37468 2.5 4 Party_Location
+Asset -81.28886 19.374 2.5 1 Cruiser_1
+Asset -81.25111 19.37115 2.5 1 Cruiser_2
+Case -81.28863 19.39559 FanLowComponentLowUncertainty 0.6511787 -0.2756199 0.2756199 0.6511787 12 20 2.5 2 Miscellaneous_A_1
+Case -81.22191 19.39058 FanLowComponentLowUncertainty 0.5955689 0.3811793 -0.3811793 0.5955689 12 20 2.5 2 Miscellaneous_A_2

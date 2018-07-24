@@ -1,0 +1,12 @@
+TimeStep: 0
+CameraPosition: -81.23402 19.39164
+CameraOrientation: 45 0
+CameraZoom: 11
+OverallDefaultZoom: 12
+Markers: 6
+Asset -81.29793 19.39118 2.5 1 Cruiser
+Case -81.22998 19.41105 Fan 0.6395245 -0.3016762 0.3016762 0.6395245 12 20 2.5 2 Miscellaneous_B
+Asset -81.34115 19.38161 2.5 3 Jetski
+Case -81.37633 19.51238 Fan 0.3707853 -0.6020949 0.6020949 0.3707853 12 20 2.5 8 Boat_Food_Misc
+Asset -81.53116 19.57264 2.5 5 Rough_Weather_Region
+Asset -81.26874 19.36763 2.5 4 Party_Location

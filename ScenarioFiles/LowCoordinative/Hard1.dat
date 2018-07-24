@@ -1,0 +1,14 @@
+TimeStep: 0
+CameraPosition: -81.24073 19.37335
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 8
+Asset -81.271 19.37468 2.5 4 Party_Location
+Asset -81.259 19.38412 2.5 1 Cruiser_1
+Asset -81.2505 19.37218 2.5 1 Cruiser_2
+Asset -81.23658 19.36381 2.5 1 Cruiser_3
+Case -81.23893 19.39709 FanLowComponentLowUncertainty 0.6993894 0.104185 -0.104185 0.6993894 12 20 2.5 1 Alcohol_B_1
+Case -81.22606 19.38578 FanLowComponentMidUncertainty 0.5409579 0.455373 -0.455373 0.5409579 12 20 2.5 1 Alcohol_B_2
+Case -81.26778 19.40145 FanLowComponentLowUncertainty 0.6771851 -0.20352 0.20352 0.6771851 12 20 2.5 1 Alcohol_B_4
+Case -81.22287 19.37322 FanLowComponentHighUncertainty 0.5329686 0.4646983 -0.4646983 0.5329686 12 20 2.5 1 Alcohol_B_3

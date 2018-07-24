@@ -1,0 +1,15 @@
+TimeStep: 0
+CameraPosition: -81.21165 19.39114
+CameraOrientation: 45 0
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 9
+Asset -81.27361 19.38483 1.25 0 Yacht
+Asset -81.24477 19.37055 1.25 2 RIB
+Asset -81.27113 19.36802 1.25 4 Party_Location
+Asset -81.29276 19.36735 1.25 0 Yacht
+Case -81.24766 19.43286 FanLowComponentHighUncertainty 0.5724248 0.4151263 -0.4151263 0.5724248 12 20 2.5 0 Food_B
+Case -81.25081 19.45682 FanLowComponentHighUncertainty 0.7070788 0.006291297 -0.006291297 0.7070788 12 20 2.5 1 Alcohol_A
+Case -81.28576 19.44579 FanLowComponentLowUncertainty 0.6429034 -0.2944064 0.2944064 0.6429034 12 20 2.5 1 Alcohol_B
+Case -81.21865 19.37754 FanLowComponentLowUncertainty -0.4919465 -0.5079258 0.5079258 -0.4919465 12 20 2.5 6 Boat_Alcohol_Food
+Asset -81.08545 19.46504 2.5 5 Rough_Weather_Region

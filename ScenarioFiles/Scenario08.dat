@@ -1,0 +1,12 @@
+TimeStep: 0
+CameraPosition: -81.21456 19.37845
+CameraOrientation: 45 0.3
+CameraZoom: 12
+OverallDefaultZoom: 12
+Markers: 6
+Asset -81.26956 19.37117 2.5 4 Party_Location
+Asset -81.24542 19.37622 2.5 2 RIB
+Asset -81.21875 19.36396 2.5 3 Jetski
+Case -81.23116 19.44279 FanLowComponentLowUncertainty 0.6006532 0.3731162 -0.3731162 0.6006532 11 20 2.5 1 Alcohol_C
+Case -81.19367 19.42417 FanLowComponentMidUncertainty -0.3812723 -0.5955094 0.5955094 -0.3812723 11 20 2.5 1 Alcohol_D
+Case -81.21456 19.37845 FanLowComponentHighUncertainty 0.5973303 0.3784131 -0.3784131 0.5973303 11 20 2.5 2 Miscellaneous_B

@@ -1,0 +1,19 @@
+TimeStep: 0
+CameraPosition: -81.27249 19.23036
+CameraOrientation: 35 0
+CameraZoom: 11
+OverallDefaultZoom: 12
+Markers: 13
+Asset -81.35129 19.36423 1.25 0 Yacht
+Asset -81.39903 19.34698 1.25 0 Yacht
+Asset -81.21957 19.36291 1.25 1 Small Boat
+Asset -81.16386 19.2894 1.25 2 Rib Boat
+Asset -81.1729 19.35705 1.25 3 Jetski
+Asset -81.28997 19.32977 1.75 4 Unknown Asset
+Case -81.4649 19.31698 GreenHighComponentDynamicRight 0.6076658 -0.3615831 0.3615831 0.6076658 12 20 2.5 0 Travel Bag
+Case -81.45526 19.25688 GreenHighComponentDynamicLeft -0.3593155 0.6090094 -0.6090094 -0.3593155 12 20 2.5 0 Travel Bag
+Case -81.32187 19.23364 GreenHighComponentDynamic 0.2406179 -0.6649083 0.6649083 0.2406179 12 20 2.5 1 Alcohol
+Case -81.22485 19.21168 GreenHighComponentDynamic -0.1952655 -0.6796113 0.6796113 -0.1952655 12 20 2.5 1 Alcohol
+Case -81.02966 19.31125 GreenHighComponentDynamic 0.01202254 -0.7070046 0.7070046 0.01202254 12 20 2.5 2 Radio
+Case -81.0254 19.37588 GreenHighComponentDynamicLeft 0.706964 0.01420959 -0.01420959 0.706964 12 20 2.5 2 Radio
+Case -81.24198 19.15127 GreenHighComponentDynamic 0.3816611 -0.5952603 0.5952603 0.3816611 12 20 2.5 1 Alcohol
