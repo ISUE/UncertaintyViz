@@ -27,6 +27,8 @@ public class UserInputManager : MonoBehaviour {
 
     public GameObject csOverlay;
 
+    public bool isSandbox = false;
+
     GameObject canvas;
     private bool isDragging = false;
     private OnlineMapsMarker3D dragged;
@@ -59,7 +61,14 @@ public class UserInputManager : MonoBehaviour {
     // Use this for initialization
     void Start() {
         canvas = GameObject.FindGameObjectWithTag("CanvasRoot");
-        UniFileBrowser.use.SendWindowCloseMessage(FileWindowClosed);
+        try
+        {
+            UniFileBrowser.use.SendWindowCloseMessage(FileWindowClosed);
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
         assetScales = new float[] { 2.5f, 2.5f, 2.5f, 2.5f, 2.5f, 2.5f };
         caseScales = new float[] { 2.5f, 2.5f, 2.5f, 2.5f, 2.5f, 2.5f, 2.5f, 2.5f, 2.5f };
 
@@ -1052,13 +1061,19 @@ public class UserInputManager : MonoBehaviour {
     }
 
     private void OnMapCompleteLoaded()
-    {
+    {   
         if (StudyFlowControl.dynamicVisualizationType == "none")
             return;
-        GameObject.Find("TimeSlider").GetComponent<Slider>().interactable = true;
-        if (StudyFlowControl.dynamicVisualizationType == "movie")
 
+        if (GameObject.Find("TimeSlider") != null)
+            GameObject.Find("TimeSlider").GetComponent<Slider>().interactable = true;
+
+        if (StudyFlowControl.dynamicVisualizationType == "movie")
+        {
             GameObject.Find("PlaySimulation").GetComponent<Button>().interactable = true;
+            GameObject.Find("TimeSlider").GetComponent<Slider>().interactable = false;
+        }       
+
     }
 
     public void ToggleLabels(bool state)
@@ -1088,10 +1103,16 @@ public class UserInputManager : MonoBehaviour {
 
     private void OnChangeZoom()
     {
-        if (StudyFlowControl.dynamicVisualizationType == "none")
-            return;
-        GameObject.Find("TimeSlider").GetComponent<Slider>().interactable = false;
-        GameObject.Find("PlaySimulation").GetComponent<Button>().interactable = false;
+        if (!isSandbox)
+        {
+            if (StudyFlowControl.dynamicVisualizationType == "none")
+                return;
+
+            GameObject.Find("TimeSlider").GetComponent<Slider>().interactable = false;
+
+            if (GameObject.Find("PlaySimulation") != null)
+                GameObject.Find("PlaySimulation").GetComponent<Button>().interactable = false;
+        }
         if (isAnimating)
             AnimateClicked();
         ResetTimeInformation();
