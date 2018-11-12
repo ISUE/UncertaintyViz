@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 public class StudyFlowControl : MonoBehaviour {
 
+    public enum VisualizationType { Line, Cone };
+    public enum DynamicVisualizationType { None, Movie, Slider};
+
     public GameObject Answer1;
     public GameObject Answer2;
     public GameObject Answer3;
@@ -21,6 +24,15 @@ public class StudyFlowControl : MonoBehaviour {
     public GameObject Likert;
     public GameObject MetaCogTextBox;
     public GameObject InstructionOverlay;
+
+    //The unique identifier for this participant
+    public string UserIdentifier = "TestUser";
+
+    //Which static visualization to use for the scenarios
+    public VisualizationType StaticVisualizationType;
+
+    //Which Animation type to present to the user.
+    public DynamicVisualizationType AnimationControlType;
 
     bool is_intro = true;
     bool is_premeta = false;
@@ -117,9 +129,9 @@ public class StudyFlowControl : MonoBehaviour {
         }
         else
         {
-            userID = "test";
-            visualizationType = "line";
-            dynamicVisualizationType = "slider";
+            userID = UserIdentifier;
+            visualizationType = StaticVisualizationType.ToString().ToLower();
+            dynamicVisualizationType = AnimationControlType.ToString().ToLower();
         }
     }
 
