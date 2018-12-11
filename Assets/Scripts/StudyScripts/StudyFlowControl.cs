@@ -398,73 +398,73 @@ public class StudyFlowControl : MonoBehaviour {
         {
             // TODO FIX ME
             case 1:
-                Answer1.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Alcohol_B 1; send Cruiser 2 to Alcohol_B 2";
-                Answer2.GetComponentInChildren<Text>().text = "Send Cruiser 2 to Alcohol_B 2 then Alcohol_B 1";
-                Answer3.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Alcohol_B 1 then Alcohol_B 2";
-                Answer4.GetComponentInChildren<Text>().text = "Send Cruiser 2 to Alcohol_B 1";
+                Answer1.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Alcohol_B_1; send Cruiser_2 to Alcohol_B_2";
+                Answer2.GetComponentInChildren<Text>().text = "Send Cruiser_2 to Alcohol_B_2 then Alcohol_B_1";
+                Answer3.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Alcohol_B_1 then Alcohol_B_2";
+                Answer4.GetComponentInChildren<Text>().text = "Send Cruiser_2 to Alcohol_B_1";
                 break;
 
             case 2:
-                Answer1.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 1; send Yacht 2 to Alcohol_A 2";
-                Answer2.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 1; send Yacht 2 to Alcohol A 3";
-                Answer3.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 2 then Alcohol A 3";
-                Answer4.GetComponentInChildren<Text>().text = "Send Yacht 2 to Alcohol_A 2";
+                Answer1.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_1; send Yacht_2 to Alcohol_A_2";
+                Answer2.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_1; send Yacht_2 to Alcohol_A_3";
+                Answer3.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_2 then Alcohol_A_3";
+                Answer4.GetComponentInChildren<Text>().text = "Send Yacht_2 to Alcohol_A_2";
                 break;
 
             case 3:
-                Answer1.GetComponentInChildren<Text>().text = "Send Jetski 1 to Food_B 1; send Jetski 2 to Food_B 2";
-                Answer2.GetComponentInChildren<Text>().text = "Send Jetski 1 to Food_B 1; send Jetski 2 to Food_B 3";
-                Answer3.GetComponentInChildren<Text>().text = "Send Jetski 1 to Food_B 1 then Food_B 2; send Jetski 2 to Food_B 3";
-                Answer4.GetComponentInChildren<Text>().text = "Send Jetski 1 to Food_B 1 then Food_B 2 then Food_B 3";
+                Answer1.GetComponentInChildren<Text>().text = "Send Jetski_1 to Food_B_1; send Jetski_2 to Food_B_2";
+                Answer2.GetComponentInChildren<Text>().text = "Send Jetski_1 to Food_B_1; send Jetski_2 to Food_B_3";
+                Answer3.GetComponentInChildren<Text>().text = "Send Jetski_1 to Food_B_1 then Food_B_2; send Jetski_2 to Food_B_3";
+                Answer4.GetComponentInChildren<Text>().text = "Send Jetski_1 to Food_B_1 then Food_B_2 then Food_B_3";
                 break;
 
             case 4:
-                Answer1.GetComponentInChildren<Text>().text = "Send RIB 1 to Miscellaneous_A 1; send RIB 2 to Miscellaneous_A 2";
-                Answer2.GetComponentInChildren<Text>().text = "Send RIB 1 to Miscellaneous_A 1; send RIB 2 to Miscellaneous_A 3";
-                Answer3.GetComponentInChildren<Text>().text = "Send RIB 1 to Miscellaneous_A 1 then Miscellaneous_A 2";
-                Answer4.GetComponentInChildren<Text>().text = "Send RIB 1 to Miscellaneous_A 2 then Miscellaneous_A 3";
+                Answer1.GetComponentInChildren<Text>().text = "Send RIB_1 to Miscellaneous_A_1; send RIB_2 to Miscellaneous_A_2";
+                Answer2.GetComponentInChildren<Text>().text = "Send RIB_1 to Miscellaneous_A_1; send RIB_2 to Miscellaneous_A_3";
+                Answer3.GetComponentInChildren<Text>().text = "Send RIB_1 to Miscellaneous_A_1 then Miscellaneous_A_2";
+                Answer4.GetComponentInChildren<Text>().text = "Send RIB_1 to Miscellaneous_A_2 then Miscellaneous_A_3";
                 break;
 
             case 5:
-                Answer1.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Miscellaneous_A 1; send Cruiser 2 to Miscellaneous_A 2";
-                Answer2.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Miscellaneous_A 1 then Miscellaneous_A 2";
-                Answer3.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Miscellaneous_A 1";
+                Answer1.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Miscellaneous_A_1; send Cruiser_2 to Miscellaneous_A_2";
+                Answer2.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Miscellaneous_A_1 then Miscellaneous_A_2";
+                Answer3.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Miscellaneous_A_1";
                 Answer4.GetComponentInChildren<Text>().text = "Do Nothing";
                 break;
 
             case 6:
-                Answer1.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Alcohol_B 1; send Cruiser 2 to Alcohol_B 2; send Cruiser 3 to Alcohol_B 3";
-                Answer2.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Alcohol_B 1 then Alcohol_B 2; Send Cruiser 2 to Alcohol_B 4 then Alcohol_B 3";
-                Answer3.GetComponentInChildren<Text>().text = "Send Cruiser 2 to Alcohol_B 2 then Alcohol_B 3 then Alcohol B 4; send Cruiser 1 to Alcohol_B 1";
-                Answer4.GetComponentInChildren<Text>().text = "Send Cruiser 1 to Alcohol_B 2 then Alcohol_B 3";
+                Answer1.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Alcohol_B_1; send Cruiser_2 to Alcohol_B_2; send Cruiser_3 to Alcohol_B_3";
+                Answer2.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Alcohol_B_1 then Alcohol_B_2; Send Cruiser_2 to Alcohol_B_4 then Alcohol_B_3";
+                Answer3.GetComponentInChildren<Text>().text = "Send Cruiser_2 to Alcohol_B_2 then Alcohol_B_3 then Alcohol_B_4; send Cruiser_1 to Alcohol_B_1";
+                Answer4.GetComponentInChildren<Text>().text = "Send Cruiser_1 to Alcohol_B_2 then Alcohol_B_3";
                 break;
 
             case 7:
-                Answer1.GetComponentInChildren<Text>().text = "Send JetSki 1 to Alcohol_C 1; send JetSki 2 to Alcohol_C 2; send JetSki 3 to Alcohol_C 3";
-                Answer2.GetComponentInChildren<Text>().text = "Send JetSki 1 to Alcohol_C 1 then Alcohol_C 2; Send JetSki 2 to Alcohol_C 3 then Alcohol_C 4";
-                Answer3.GetComponentInChildren<Text>().text = "Send JetSki 1 to Alcohol_C 1 then Alcohol_C 2 then Alcohol_C 3; send JetSki 2 to Alcohol_C 4";
-                Answer4.GetComponentInChildren<Text>().text = "Send JetSki 1 to Alcohol_C 1 then Alcohol_C 2";
+                Answer1.GetComponentInChildren<Text>().text = "Send JetSki_1 to Alcohol_C_1; send JetSki_2 to Alcohol_C_2; send JetSki_3 to Alcohol_C_3";
+                Answer2.GetComponentInChildren<Text>().text = "Send JetSki_1 to Alcohol_C_1 then Alcohol_C_2; Send JetSki_2 to Alcohol_C_3 then Alcohol_C_4";
+                Answer3.GetComponentInChildren<Text>().text = "Send JetSki_1 to Alcohol_C_1 then Alcohol_C_2 then Alcohol_C_3; send JetSki_2 to Alcohol_C_4";
+                Answer4.GetComponentInChildren<Text>().text = "Send JetSki_1 to Alcohol_C_1 then Alcohol_C_2";
                 break;
 
             case 8:
-                Answer1.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 1; send Yacht 2 to Alcohol_A 3; send Yacht 3 to Alcohol_A 4";
-                Answer2.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 1 then Alcohol_A 3; Send Yacht 2 to Alcohol_A 4 then Alcohol_A 2";
-                Answer3.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 1 then Alcohol_A 3";
-                Answer4.GetComponentInChildren<Text>().text = "Send Yacht 1 to Alcohol_A 1 then Alcohol_A 3 then Alcohol_A 4; send Yacht 2 to Alcohol_A 2";
+                Answer1.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_1; send Yacht_2 to Alcohol_A_3; send Yacht_3 to Alcohol_A_4";
+                Answer2.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_1 then Alcohol_A_3; Send Yacht_2 to Alcohol_A_4 then Alcohol_A_2";
+                Answer3.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_1 then Alcohol_A_3";
+                Answer4.GetComponentInChildren<Text>().text = "Send Yacht_1 to Alcohol_A_1 then Alcohol_A_3 then Alcohol_A_4; send Yacht_2 to Alcohol_A_2";
                 break;
 
             case 9:
-                Answer1.GetComponentInChildren<Text>().text = "Send Yacht 1 to Miscellaneous_A 4; send Yacht 2 to Miscellaneous_A 3; send Yacht 3 to Miscellaneous_A 2 then Miscellaneous_A 1";
-                Answer2.GetComponentInChildren<Text>().text = "Send Yacht 1 to Miscellaneous_A 4 then Miscellaneous_A 3 then Miscellaneous_A 2 then Miscellaneous_A 1";
-                Answer3.GetComponentInChildren<Text>().text = "Send Yacht 1 to Miscellaneous_A 4 then Miscellaneous_A 3; send Yacht 2 to Miscellaneous_A 2 then Miscellaneous_A 1";
-                Answer4.GetComponentInChildren<Text>().text = "Send Yacht 1 to Miscellaneous_A 3 then Miscellaneous_A 1";
+                Answer1.GetComponentInChildren<Text>().text = "Send Yacht_1 to Miscellaneous_A_1 then Miscellaneous_A_2; send Yacht_2 to Miscellaneous_A_3; send Yacht_3 to Miscellaneous_A_4";
+                Answer2.GetComponentInChildren<Text>().text = "Send Yacht_1 to Miscellaneous_A_1 then Miscellaneous_A_2 then Miscellaneous_A_3 then Miscellaneous_A_4";
+                Answer3.GetComponentInChildren<Text>().text = "Send Yacht_1 to Miscellaneous_A_1 then Miscellaneous_A_2; send Yacht_2 to Miscellaneous_A_3 then Miscellaneous_A_4";
+                Answer4.GetComponentInChildren<Text>().text = "Send Yacht_1 to Miscellaneous_A_3 then Miscellaneous_A_1";
                 break;
 
             case 10:
-                Answer1.GetComponentInChildren<Text>().text = "Send RIB 1 to Alcohol_D 1 then Alcohol_D 2; send RIB 2 to Alcohol_D 3; send RIB 3 to Alcohol_D 4";
-                Answer2.GetComponentInChildren<Text>().text = "Send RIB 1 to Alcohol_D 1 then Alcohol_D 2; Send RIB 2 to Alcohol_D 3 then Alcohol_D 4";
-                Answer3.GetComponentInChildren<Text>().text = "Send RIB 3 to Alcohol_D 4 then Alcohol_D 3 then Alcohol_D 2; send RIB 2 to Alcohol_D 1";
-                Answer4.GetComponentInChildren<Text>().text = "Send RIB 1 to Alcohol_D 4 then Alcohol_D 3 then Alcohol_D 2 then Alcohol_D 1";
+                Answer1.GetComponentInChildren<Text>().text = "Send RIB_1 to Alcohol_D_1 then Alcohol_D_2; send RIB_2 to Alcohol_D_3; send RIB_3 to Alcohol_D_4";
+                Answer2.GetComponentInChildren<Text>().text = "Send RIB_1 to Alcohol_D_1 then Alcohol_D_2; Send RIB_2 to Alcohol_D_3 then Alcohol_D_4";
+                Answer3.GetComponentInChildren<Text>().text = "Send RIB_3 to Alcohol_D_4 then Alcohol_D 3 then Alcohol_D_2; send RIB_2 to Alcohol_D_1";
+                Answer4.GetComponentInChildren<Text>().text = "Send RIB_1 to Alcohol_D_4 then Alcohol_D_3 then Alcohol_D_2 then Alcohol_D_1";
                 break;
 
 
