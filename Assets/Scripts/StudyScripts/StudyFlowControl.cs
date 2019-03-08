@@ -11,6 +11,7 @@ public class StudyFlowControl : MonoBehaviour {
     public enum VisualizationType { Line, Cone };
     public enum DynamicVisualizationType { None, Movie, Slider};
 
+    // For presenting study questions and overlay items to participants    
     public GameObject Answer1;
     public GameObject Answer2;
     public GameObject Answer3;
@@ -24,6 +25,11 @@ public class StudyFlowControl : MonoBehaviour {
     public GameObject Likert;
     public GameObject MetaCogTextBox;
     public GameObject InstructionOverlay;
+    public GameObject TimerText;
+
+    // Time participants may take to complete each question, in seconds. (0 to disable)
+    public float timeLimitPerTask = 0;
+    private float time_at_start_of_question = 0;
 
     //The unique identifier for this participant
     public string UserIdentifier = "TestUser";
@@ -41,6 +47,7 @@ public class StudyFlowControl : MonoBehaviour {
     bool is_postmeta = false;
     bool is_question = false;
     bool is_map = false;
+    
 
     private List<string> finfo;
     private List<string> random_finfo;
@@ -109,6 +116,17 @@ public class StudyFlowControl : MonoBehaviour {
             NextButton.GetComponent<Button>().interactable = true;
 
         }
+
+        //Timer Display logic, only displays on questions 
+        if (is_question && timeLimitPerTask > 0)
+        {
+            if (Time.timeSinceLevelLoad - time_at_start_of_question > timeLimitPerTask)
+                OnNextClicked();
+            float timer_time = (timeLimitPerTask - (Time.timeSinceLevelLoad - time_at_start_of_question));
+            string minutes = Mathf.Floor(timer_time / 60).ToString("00");
+            string seconds = Mathf.Floor(timer_time % 60).ToString("00");
+            TimerText.GetComponent<Text>().text = string.Format("{0}:{1}", minutes, seconds);
+        }
     }
 
     private void ParseURL(string url)
@@ -137,6 +155,10 @@ public class StudyFlowControl : MonoBehaviour {
 
     public void OnNextClicked()
     {
+        // Start the timer regardless of what task we are doing. Won't trigger next click unless it is a question.
+        if (timeLimitPerTask > 0)
+            time_at_start_of_question = Time.timeSinceLevelLoad;
+
         if (is_intro)
         {
             is_intro = false;
@@ -162,19 +184,6 @@ public class StudyFlowControl : MonoBehaviour {
         {
             MetaCogTextBox.GetComponent<InputField>().text = "";
             MetaCogTextBox.SetActive(false);
-
-            //DirectoryInfo dir = new DirectoryInfo("ScenarioFiles");
-            //finfo = new List<FileInfo>(dir.GetFiles("*.*"));
-            /*finfo = new List<string> {Scenario01,
-            Scenario02,
-            Scenario03,
-            Scenario04,
-            Scenario05,
-            Scenario06,
-            Scenario07,
-            Scenario08,
-            Scenario09,
-            Scenario10};*/
 
             finfo = new List<string> {EasyLowCoordScenario1,
             EasyLowCoordScenario2,
@@ -208,8 +217,7 @@ public class StudyFlowControl : MonoBehaviour {
         }
         else if(is_question)
         {
-            LogHelper.AnswerSubmitted(true_question_id, selected, confidenceVal);
-
+            LogHelper.AnswerSubmitted(true_question_id, selected, confidenceVal);            
             LoadNextQuestion();
         }
         else if(is_postmeta)
@@ -223,9 +231,7 @@ public class StudyFlowControl : MonoBehaviour {
             LogHelper.StudyCompleted(userID, visualizationType, dynamicVisualizationType);
 
 
-            Screen.fullScreen = false;
-            //Shouldn't need this anymore?        
-            //StartCoroutine(LogHelper.StudyCompleted(userID,visualizationType,dynamicVisualizationType));
+            Screen.fullScreen = false;            
         }
     }
 
